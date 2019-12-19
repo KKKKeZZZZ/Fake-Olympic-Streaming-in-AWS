@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Video";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>
+    <video id='my-video' class='video-js' controls preload='auto' width="1000" height="800"
+           poster='https://stillmed.olympic.org/media/Images/OlympicOrg/News/2017/06/09/2017-06-09-tokyo2020-thumbnail.jpg?interpolation=lanczos-none&resize=*:*' data-setup='{}'>
+        <source src='https://olympicsgroup12.s3-ap-southeast-2.amazonaws.com/UniSA.mp4'>
+        <source src='MY_VIDEO.webm' type='video/webm'>
+    </video>
+</p>
+<div class="w3-content" style="max-width:1100px">
+
+    <div class="w3-col m6 w3-padding-large">
+        <h1 class="w3-center">About Olympic Games</h1><br>
+        <h5 class="w3-center">Tradition since 1896</h5>
+        <p class="w3-large">
+            The modern Olympic Games or Olympics are leading international
+            sporting events featuring summer and winter sports competitions in which thousands of athletes from around the world participate in a variety of competitions.
+            The Olympic Games are considered the world's foremost sports competition with more than 200 nations participating. The Olympic Games are held every four years,
+            with the Summer and Winter Games alternating by occurring every four years but two years apart.
+        </p>
+
+        <p class="w3-large w3-text-grey w3-hide-medium">
+            The Ancient Olympic Games were religious and athletic festivals held every
+            four years at the sanctuary of Zeus in Olympia,
+            Greece. Competition was among representatives of several city-states and kingdoms of Ancient Greece.
+            These Games featured mainly athletic but also combat sports such as wrestling and the pankration, horse and chariot racing events.
+            It has been widely written that during the Games, all conflicts among the participating city-states were postponed until the Games were finished.
+            This cessation of hostilities was known as the Olympic peace or truce. This idea is a modern myth because the Greeks never suspended their wars.
+            The truce did allow those religious pilgrims who were travelling to Olympia to pass through warring territories unmolested because they were protected by Zeus.
+        </p>
+    </div>
+</div>
+<div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+        <h1 class="w3-center">When 2020 Olympic start?</h1><br>
+        <p class="w3-text-grey">2020 Olympic Games will start on 24th July 2020.</p><br>
+
+        <h4>When it will be finished?</h4>
+        <p class="w3-text-grey">It will be finished on 9th Aug 2020</p><br>
+    </div>
+    <div class="w3-col l6 w3-padding-large"></div>
+</div>
+
+
